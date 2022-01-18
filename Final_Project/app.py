@@ -14,10 +14,10 @@ class NLP(object):
 
 # upload stopword
 
-sw =  open('stopword.txt')
+sw =  open('stopword.txt',encoding="utf8")
+print(sw)   
 data_sw = sw.readlines()
 data_sw = [x.strip() for x in data_sw]
-print(data_sw)
 
 #data_sw = ['là', 'gì']
 # hàm loại stopword
