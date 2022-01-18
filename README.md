@@ -50,7 +50,7 @@ Lớp CNTT2018
 ## ĐỒ ÁN CUỐI KỲ
 
 - **Tên đồ án:** PHÁT HIỆN BÌNH LUẬN TIÊU CỰC
-- **Thư mục:** [FinalProject](Final Project)
+- **Thư mục:** [FinalProject](Final_Project)
 
 <!-- Footer -->
 
