@@ -45,7 +45,7 @@ Lớp CNTT2018
 
 | STT | Họ tên    | MSSV     | Vai trò | Email                    | Github                                     | Facebook                                         |
 | :-: | --------- | -------- | ------- | ------------------------ | ------------------------------------------ | ------------------------------------------------ |
-|  1  | Lê Văn An | 18520427 | NaN     | *18520427@gm.uit.edu.vn* | [anlee1308](https://github.com/an-lee1308) | [anlee1308](https://www.facebook.com/an.lee1308) |
+|  1  | Lê Văn An | 18520427 | NaN     | *18520427@gm.uit.edu.vn* | [Lê Văn An](https://github.com/an-lee1308) | [Lê Văn An](https://www.facebook.com/an.lee1308) |
 
 ## ĐỒ ÁN CUỐI KỲ
 
