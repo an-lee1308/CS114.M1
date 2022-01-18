@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FinalML</title>
+    <meta charset="utf-8">
+    <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        function clear_result() {
+            $('.result').text('')
+            $('textarea').text('')
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <h2>DETECTING OFENSIVE COMMNETS</h2>
+    <p>Final project Machine learning</p>
+    <p>18520427</p>
+    <form method="post">
+        <div class="form-group">
+            <label for="title_result">Type any comment in Vietnamese here: </label>
+            <textarea class="form-control" rows="5" name="comment" id="comment">{{comment}}</textarea>
+            <input type="submit" value="Submit" class="btn btn-success btn-lg" style="margin-top: 20px;">
+            <input type="reset" value="Reset" class="btn btn-default btn-lg" style="margin-top: 20px;"
+                   onclick="clear_result()">
+        </div>
+    </form>
+    <div class="result">
+        <h4>Predict result:</h4>
+        {% if result_comment %}
+        <p>Title topic: <strong>{{ result_comment }}</strong></p>
+        {% endif %}
+    </div>
+</div>
+<div class="container" style="margin-top:20px;">
+    
+    >.</p>
+    <p>Contact: <a href="#">An</a>.</a></p>
+    <p>Reference from <a href="https://github.com/NguyenVanHieuBlog/programing-language-identify">NguyenVanHieuBlog/programing-language-identify</a>.</p>
+</div>
+</body>
+</html>
